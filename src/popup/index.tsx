@@ -6,6 +6,7 @@ import BilibiliImage from "raw:~assets/bilibili.png";
 import FacebookImage from "raw:~assets/facebook.png";
 import InstagramImage from "raw:~assets/instagram.png";
 import YoutubeImage from "raw:~assets/youtube.png";
+import TikTopImage from "raw:~assets/tikTop.png";
 import XImage from "raw:~assets/x.png";
 import "~style.css";
 import { isEmpty, isValidUrl } from "~utils";
@@ -70,6 +71,7 @@ function IndexPopup() {
                 <img style={{ width: 24, height: 24 }} src={InstagramImage} />
                 <img style={{ width: 24, height: 24 }} src={YoutubeImage} />
                 <img style={{ width: 24, height: 24 }} src={XImage} />
+                <img style={{ width: 18, height: 18 }} src={TikTopImage} />
             </div>
         </div>
         <section>
